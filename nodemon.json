@@ -1,0 +1,9 @@
+{
+  "exec": "node --loader ts-node/esm --experimental-specifier-resolution=node ./index.ts",
+  "ignore": [
+    "node_modules"
+  ],
+  "restartable": "rs",
+  "watch": ["*.*"],
+  "ext": "ts"
+}
